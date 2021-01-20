@@ -67,6 +67,7 @@ Do the following with above problem.
 
 // - Write an Arrow Function without curly brackets(if possible)
 
+
 // - Write an Arrow Function with curly brackets
 
 // - Execute the function
