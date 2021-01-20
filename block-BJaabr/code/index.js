@@ -42,17 +42,36 @@ Do the following with above problem.
 
 // - Write a Function Declaration
 
+// function addOne(n) {                ans
+//   return n + 1;
+// }
+
 // - Write a Function Expression
+
+// let addOne = function (n) {          ans
+//   return n + 1;
+// };
 
 // - Write an Arrow Function without curly brackets(if possible)
 
+// let addOne = (n) => n + 1;             ans
+
 // - Write an Arrow Function with curly brackets
+
+// let addOne = (n) => {                    ans
+//   n + 1;
+// };
 
 // - Execute the function
 
+// addOne()                               ans
+
 // - Execute the function and store the return value in a variable.
+//  let num = addOne();                    ans
 
 // - What is the typeof returnValue
+
+// "number"                                ans
 
 /* 2. Subtract one
 
@@ -63,16 +82,31 @@ Do the following with above problem.
 
 // - Write a Function Declaration
 
+// function substractOne(n){                       ams
+//   return n - 1;
+// }
+
 // - Write a Function Expression
+
+// let substractOne = function(n){                  ans
+//   return n - 1;
+// }
 
 // - Write an Arrow Function without curly brackets(if possible)
 
+// let substractOne = (n) => n - 1;                 ans
 
 // - Write an Arrow Function with curly brackets
 
+// let substractOne = (n) => { n - 1};           ans
+
 // - Execute the function
 
+// substractOne();                 ans
+
 // - Execute the function and store the return value in a variable.
+
+// let num = substractOne();          ans
 
 // - What is the typeof returnValue
 
@@ -85,15 +119,29 @@ Do the following with above problem.
 
 // - Write a Function Declaration
 
+// function sum(a , b ){       ans
+//   return  a + b;
+// }
+
 // - Write a Function Expression
+
+// let sum = function()         ans
 
 // - Write an Arrow Function without curly brackets(if possible)
 
+// let sum = (n) => n - 1;      ans
+
 // - Write an Arrow Function with curly brackets
+
+// let sum = (n) =>{ n - 1 }    ans
 
 // - Execute the function
 
+// sum();               ans
+
 // - Execute the function and store the return value in a variable
+
+// let num = sum;          ans
 
 // - What is the typeof returnValue
 
@@ -151,16 +199,57 @@ Do the following with above problem.
 
 // - Write a Function Declaration
 
+// function oddOrEven(number) {
+//   if (number % 2 === 0) {
+//     alert("Number is even");
+//   } else if (number % 2 !== 0) {
+//     alert("Number is odd");
+//   } else {
+//     alert("invalid no");
+//   }
+// }
+
 // - Write an anonymous Function Expression
+
+// let oddOrEven = function oddOrEven(number) {
+//   if (number % 2 === 0) {
+//     return  "Number is even";
+//   } else {
+//     return "Number is even"
+//   }
+// }
 
 // - Write an named Function Expression
 
+// let oddOrEven = function(number) {
+//   if (number % 2 === 0) {
+//     return  "Number is even";
+//   } else {
+//     return "Number is even"
+//   }
+// }
 // - Write an Arrow Function without curly brackets (hint: use ternary operator)
 
+let oddOrEven = function(number) => {
+  if (number % 2 === 0) {
+    return  "Number is even";
+  } else {
+    return "Number is even"
+  }
+}
+
+
 // - Write an Arrow Function with curly brackets
+let oddOrEven = function(number) => 
+number % 2 === 0 ? "Number is even" : "Number is odd"
 
 // - Execute the function
 
+oddOrEven();
+
 // - Execute the function and store the return value in a variable
 
+ let oddNum = oddOrEven();
+
 // - What is the typeof returnValue
+"Number"
